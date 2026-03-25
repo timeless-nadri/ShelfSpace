@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ShelfSpace.Models
 {
-    internal class Book
+    public class Book
     {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Author { get; set; } = string.Empty;
+        public string? SeriesName { get; set; }
+        public int? SeriesNumber { get; set; }
+        public int? PublishYear { get; set; }
     }
 }
