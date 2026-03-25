@@ -39,7 +39,7 @@ namespace ShelfSpace.Forms
             StartForm startForm = new StartForm();
             startForm.Show();
 
-            this.Hide();
+            this.Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
